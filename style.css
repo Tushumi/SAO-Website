@@ -1,0 +1,245 @@
+
+body{
+  color:white;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    background-image: url("asuna.jpg");
+    background-position: center;
+    background-size: cover;
+    padding-top: 20px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.logo{
+    font-size: 40px;  
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+}
+nav ul li a{
+       color: #fff;
+       text-decoration: none;
+       transition: 0.5s;
+       font-size: 18px;
+}
+nav ul li a:hover{
+    color: orangered;
+}
+.login{
+    color:black;
+    font-size: 18px;
+    margin-right: 15px;
+    text-decoration: none;
+    background-color: orangered;
+    padding: 9px 25px;
+    border-radius: 6px;
+    transition: 0.5s;
+}
+.login:hover{
+    color: orangered;
+    background-color: black;
+}
+.register{
+    color: white;
+    text-decoration: none;
+    background: orangered;
+    padding: 9px 25px;
+    border-radius: 6px;
+    font-size: 18px;
+    transition: 0.5s;
+}
+.register:hover{
+     background-color: #000;
+     color: orangered;
+}
+.content{
+    margin-top: 12%;
+    max-width: 600px;
+}
+.content h3{
+    font-size: 55px;
+    margin: 0%;
+}
+.content p{
+    margin-top: 10px;
+    line-height: 25px;
+}
+.link{
+    margin-top: 30px;
+}
+.link .hire{
+    color: #000;
+    background-color: #fff;
+    text-decoration: none;
+    padding: 9px 35px;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.link .hire:hover{
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+.container2{
+    height: 100vh;
+    background-image: url("sao2.jpg");
+    background-position: center;
+    background-size: cover;
+    padding-top: 20px;
+    padding-left: 8%;
+    padding-right: 8%;
+    background-color: darkslategray;
+}
+.form{
+    width: 250px;
+    height: 290px;
+    background-color: rgb(29, 28, 28);
+    position: absolute;
+    top: -20px;
+    left: 880px;
+    border-radius: 10px;
+    padding: 25px;
+    margin-top: 22%;
+    align-items: center;
+    text-align: center;
+}
+.form h2{
+    width: 230px;
+    font-family: sans-serif;   
+    color: orangered;
+    font-size: 22px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 8px;
+    margin: 2px;
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background-color: transparent;
+    border-bottom: 1px solid orangered;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color:white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: white;
+    font-family: Arial;
+}
+.btn{
+    width: 240px;
+    height: 40px;
+    background: orangered;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: 0.5s;
+}
+.btn:hover{
+    background-color: white;
+    color: orangered;
+}
+.btn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.form .link a{
+    text-decoration: none;
+    color: orangered;
+}
+.form .link{
+    margin: 15px;
+}
+.form .link-2 a{
+    color: orangered;
+}
+.form .link-2{
+    margin-top: 40px;
+}
+.container-3{
+    background-color: black;
+    background-size: cover;
+    padding-top: 20px;
+    padding-left: 6%;
+    padding-right: 8%;
+    height: 265vh;
+}
+.cover{
+    width: 800px;
+    height: 400px;
+    display: flex;
+    margin-top: 60px;
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+    margin-left: 16%;
+}
+.char{
+    width: 800px;
+    height: 520px;
+    margin: 5px;
+    box-shadow: 2px 2px 2px 2px gray;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.cover h4{
+    font-size: 18px;
+    margin: 5px;
+}
+.cover p{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: left;
+}
+.cover-2{
+    width: 800px;
+    height: 400px;
+    display: flex;
+    margin-top: 60px;
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+    margin-left: 16%;
+    padding-top: 8%;
+}
+.cover-2 h4{
+    font-size: 18px;
+    margin: 5px;
+}
+.cover-2 p{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: left;
+}
+
+
+
+
+
